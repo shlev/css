@@ -1,0 +1,5 @@
+#playground {
+    background: #62306d; position: relative;
+}
+
+p{height:100px;width:100px;background:#F7EC7D;position:absolute;bottom:50px;border-radius:0px 0px 50px 50px;margin: 0}#a{left:50px}#b{left:150px;transform: scale(-1) translateY(100%)}#c{left:250px}nd: #EEB850; top: 125px; left: 175px}
