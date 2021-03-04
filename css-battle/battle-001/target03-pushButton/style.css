@@ -1,0 +1,10 @@
+#playground {
+    background: #6592cf; position: relative;
+}
+
+p {position: absolute;margin: 0}
+  #s { height: 150px; width: 300px; background: #243D83; top: 75px; left: 50px;}
+  #o,#m,#i{border-radius:50%}
+  #o { height: 250px; width: 250px; background: #6592CF; top: 25px; left: 75px}
+  #m { height: 150px; width: 150px; background: #243D83; top: 75px; left: 125px}
+  #i { height: 50px; width: 50px; background: #EEB850; top: 125px; left: 175px}
