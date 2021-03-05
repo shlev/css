@@ -1,0 +1,8 @@
+#playground {
+    background: #0b2429; position: relative;
+}
+
+#a, #b, #c { width: 150px; height: 150px; position: absolute; }
+#a { top: 75px; left: 75px; background: #1A4341; border-radius: 100px 0  0}
+#b { top: 75px; left: 125px; background: #998235; border-radius: 100px 0 100px 0}
+#c { top: 75px; left: 175px; background: #F3AC3C; border-radius: 100px 0 100px 0}}
