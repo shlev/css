@@ -1,0 +1,11 @@
+#playground {
+    background: #6592CF; position: relative;
+}
+
+div { background: #060F55;}
+#handle { position: absolute; width: 20px; height: 100px; bottom: 0; left: 190px;}
+#base { position: absolute; height: 100px; width: 140px; left: 130px; bottom: 50px; border-radius: 0 0 100px 100px}
+#teeth{ position: absolute; height: 100px; width: 140px; left: 130px; bottom:150px; display: flex; background: #6592CF;}
+.t { height: 100%; width: 20px; }
+.e { background: #060F55; border-radius: 10px 10px 0 0 }
+.o { background: #6592CF; border-radius: 0 0 10px 10px; height: 110px}
