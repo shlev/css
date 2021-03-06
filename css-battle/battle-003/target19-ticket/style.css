@@ -1,0 +1,16 @@
+section#playground {
+  background: #62306d; display: flex; align-items: center; justify-content: center;
+}
+
+#c { width: 200px; height: 100px; position: relative; display: flex;}
+  #i { width : 140px; background: #F7EC7D; height: 100%;}
+  #y { width: 60px; background: #e38f66; height: 100%;}
+  
+  .bc { width: 40px; height: 40px; position : absolute; background: #62306d; border-radius: 50%;}
+  .sc { width: 20px; height: 20px; position : absolute; background: #62306d; border-radius: 50%;}
+  .a { top: -20px; left: -20px;}
+  .b { top: -20px; right: -20px;}
+  .c { bottom: -20px; right: -20px;}
+  .d { bottom: -20px; left: -20px;}
+  .e { top: -10px; left: calc(70% - 10px)}
+  .f { bottom: -10px; left:  calc(70% - 10px)}
