@@ -1,0 +1,12 @@
+:root {--main-bg-color: #e38f66;}
+
+section#playground {
+  background: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  #circle { width: 200px; height: 200px; background: #aa445f; border-radius: 50%; display: flex; align-items: center;}
+  #inner { border: 30px solid #f7ec7d; width: 80px; height: 80px;margin-left: auto; margin-right: auto; border-radius: 50%; border-color: #f7ec7d transparent; transform: rotate(45deg)}
+
