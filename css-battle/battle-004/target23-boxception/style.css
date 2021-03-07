@@ -1,0 +1,12 @@
+:root {--main-bg-color: #f3ac3c;}
+
+section#playground {
+  background: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#big { width:200px; height: 200px; background: #1a4341; position: relative;}
+#med { width:50%; height: 50%; background: #998235; position: absolute; bottom: 0;}
+#small { width:50%; height: 50%; background: #f3ac3c;position: absolute; bottom: 0; right: 0}
