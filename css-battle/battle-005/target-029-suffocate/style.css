@@ -1,0 +1,15 @@
+section#playground {
+  background: #f3ac3c; margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ div  {width: 200px; height: 200px; background: #1a4341; position: relative;}
+  .circle  { height: 200px; width: 200px; background: #f3ac3c; border-radius: 100%; position: absolute;}
+  .a { bottom: 100px; right: 100px;}
+  .b { bottom: 100px; left: 100px;}
+  .c { top: 100px; right: 100px;}
+  .d { top: 100px; left: 100px;}
+
