@@ -1,0 +1,33 @@
+:root {
+  --main-bg: #6592cf;
+  --bg-1: #243D83;
+}
+
+section#playground {
+  background: var(--main-bg);
+  position: relative;
+}
+
+.border { 
+  height: 182px;
+  width: 80px;
+  border: 30px solid var(--bg-1);
+  position: absolute;
+  top: 30px;
+  border-radius: 75px;
+}
+
+.l { 
+  left: 75px;
+}
+
+.r { right: 75px;}
+
+.cover { 
+  height: 100%;
+  width: 145px;
+  background: var(--main-bg);
+  position: absolute;
+}
+
+.right { right: 0;}
