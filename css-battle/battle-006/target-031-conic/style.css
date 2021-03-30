@@ -1,0 +1,31 @@
+section#playground {
+  background: #aa445f;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div[a] { 
+  height: 200px;
+  width: 250px;
+  display: flex;
+}
+
+div [b] {
+  height: 100%;
+  width: 100px;
+  background: #f7ec7d;
+  border-radius: 100px 0 0 100px;
+}
+
+div [c] {
+  height: 100%;
+  width: 100px;
+  background: #e38f66;
+  margin-left: 50px;
+  border-radius: 0 100px 100px 0;
+}
+
+ 
+
