@@ -1,0 +1,33 @@
+section#playground {
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div[a]{
+  height:200px;
+  width:200px;
+  display:flex;
+  position:relative
+}
+div[b],div[c],div[d]{
+  height:200px;
+  width:50px;
+  position:absolute;
+  left:75px;
+  transform:rotate(45deg);
+  background:#a3a368}
+  div[d]{
+    height:50px;
+    background:#fbe18c;
+    top:75px
+  }
+  div[b]{
+    background:#f3ac3c;
+    transform:rotate(135deg)
+  }
+
+ 
+
