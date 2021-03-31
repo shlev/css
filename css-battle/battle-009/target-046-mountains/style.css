@@ -1,0 +1,41 @@
+:root {
+  --main-bg: #293462;
+  --bg-1: #243D83;
+  --size: 200px;
+}
+
+section#playground {
+  background: var(--main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#circle { 
+  height: var(--size);
+  width: var(--size);
+  background: #fff1c1;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#big { 
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid #fe5f55;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  top: 59px;
+  top: -59px;
+}
+
+#small {
+  width: 30px;
+  height: 30px;
+  background: #fe5f55;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 135px;
+  left: 15px
+}
