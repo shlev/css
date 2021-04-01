@@ -1,0 +1,27 @@
+:root {
+  --main-bg: #191919;
+  --bg-1: #243D83;
+}
+
+section#playground {
+  background: var(--main-bg);
+display: flex; align-items: center; justify-content: center}
+
+ 
+  #circle { background: #4f77ff; height: 150px; width: 150px; border-radius: 50%; position: relative;}
+  .hline { width: 150px; border: 5px solid #191919; position: absolute;}
+  .vline { height: 150px; border: 5px solid #191919; position: absolute; left: 70px}
+  
+  .a { top: 30px}
+  .b { top: 70px;}
+  .c { top: 110px}
+  
+  .left-arc { 
+    width: 70px; height: 138px;
+    background: transparent; 
+    border: 10px #191919 solid; 
+    border-radius: 50%; position: absolute; 
+    left: 30px; bottom: -3
+  }
+  
+  
