@@ -1,0 +1,19 @@
+:root {
+  --main-bg: #1A4341;
+  --bg-1: #243D83;
+}
+
+section#playground {
+  background: var(--main-bg);
+display: flex; align-items: center; justify-content: center}
+
+  .circle{ background: #f3ac3c; width: 100px; height: 100px; border-radius: 50%; position: relative;}
+  .stain {background: #998235; border-radius: 50%; position: absolute;}
+  .big{width: 30px; height: 30px; left: 20px; top: 20px;}
+  .med{width: 20px; height: 20px; left: 40px; top: 65px}
+  .small{width: 10px; height: 10px; left: 70px; top: 20px}
+  .poll{ background: #f3ac3c; width: 10px; height: 180px; position: absolute; border-radius: 50px;}
+  .first { left: 45px; top: -50px}
+  .second{ transform: rotate(60deg); left: 55px; top: -45px;}
+  .third{ transform: rotate(120deg); left: 55px; top: -35px}
+  
