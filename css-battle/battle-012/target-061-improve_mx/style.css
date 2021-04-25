@@ -1,0 +1,47 @@
+:root {
+  --main-bg: #191919;
+  --bg-1: #243D83;
+}
+
+section#playground {
+  background: var(--main-bg); position: relative;}
+ 
+    #playground:before, #playground:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    [a] { width: 30px; height: 20px; position: absolute; border: 10px solid #5dbcf9;
+  	top: 66px; left: 50%; transform: translateX(-50%)
+  }
+  [b] { width: 80px; height: 50px; position: absolute; border: 10px solid #5dbcf9;
+  	top: 96px; left: 50%; transform: translateX(-50%);border-bottom: none;
+  }
+  [c1] { width: 80px; height: 20px; position: absolute; 
+    border: 10px solid #5dbcf9; 
+    border-right: none;
+    border-bottom:none;
+  	top: 146px; left:124px; transform: rotate(-30deg)
+  }
+  [c2] { width: 80px; height: 20px; position: absolute; 
+    border: 10px solid #5dbcf9; 
+    border-left: none;
+    border-bottom:none;
+  	top: 146px; left:188px; transform: rotate(30deg)
+  }
+  
+  [c3] { height: 50px; position: absolute; 
+    border: 5px solid #5dbcf9; 
+  	top: 136px; left:195px;
+  }
+  
+  
+  [d] { width: 190px; position: absolute; border: 5px solid #5dbcf9;
+  	top: 204px; left: 50%; transform: translateX(-50%)
+  }
+  [e] { width: 100px; position: absolute; border: 5px solid #5dbcf9;
+  	top: 224px; left: 50%; transform: translateX(-50%)
+  }
+  
