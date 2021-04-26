@@ -1,0 +1,15 @@
+:root {
+  --main-bg: #007065;
+  --bg-1: #243D83;
+}
+
+section#playground {
+  background: var(--main-bg);
+  position: relative;
+}
+
+div { position: absolute; width: 0; height: 0; border-left: 125px solid transparent; border-right: 125px solid transparent; 
+    border-bottom: 100px solid;  left: 50%; transform: translateX(-50%)}
+  [a]  { top: 50px; border-bottom-color: #ffeecf}
+  [b]  { top: 100px; border-bottom-color: #F5c181}
+  [c]  { top: 150px; border-bottom-color: #00a79d}
