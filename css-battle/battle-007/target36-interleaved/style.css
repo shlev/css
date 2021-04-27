@@ -1,0 +1,17 @@
+  :root { --colorA: #1A4341; --colorB: #F3AC3C; --colorC: #998235}
+
+
+section#playground {
+  background: var(--colorA); position: relative; margin: 0;
+}
+
+div { background: var(--colorB); width: 50px; height: 200px; position: absolute;}
+
+.down { bottom: 0; border-top-right-radius: 25px; border-top-left-radius: 25px;}
+  .up { top: 0; border-bottom-right-radius: 25px; border-bottom-left-radius: 25px; 
+    background: var(--colorC)}
+  .a { left: 100px;}
+  .b { left: 250px;}
+  .c { left: 25px;}
+  .d { left: 175px;}
+  .e { left: 325px}
