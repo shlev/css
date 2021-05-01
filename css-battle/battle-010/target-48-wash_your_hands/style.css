@@ -1,0 +1,14 @@
+:root {
+  --main-bg: #293462;
+  --bg-1: #fe5f55;
+    --bg-2: #a64942;
+}
+
+section#playground {
+  background: var(--main-bg);
+display: flex; align-items: center; justify-content: center}
+
+  [a] { width: 200px; height: 100px; background: #fe5f55; position: absolute; 
+    top: 90px; left: 100px; border-radius: 20px; box-shadow: 0 20px 0 #A64942;
+  display: flex; align-items: center; justify-content: center;}
+  [b] { width: 140px; height: 40px; background: #a64942; border-radius: 30px}
