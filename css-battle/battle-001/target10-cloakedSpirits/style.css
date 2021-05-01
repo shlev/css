@@ -1,0 +1,12 @@
+:root { --color1: #62306D; --color2: #F7EC7D; --color3: #AA445F; --color4: #E38F66;}
+#playground {
+    background: var(--color1); position: relative;
+}
+.yellow { background: var(--color2)}
+  .base { width: 300px; height: 100px; position: absolute; bottom: 0; left: 50px}
+  .tower{ width: 100px; height: 100px; position: absolute; bottom: 100px; left: 150px}
+  .circle { background: var(--color4); border: 20px solid var(--color3); 
+    width: 60px; height: 60px; border-radius: 50%; position: absolute; bottom: 50px;}
+  .a { left: 50px;}
+  .b { left: 250px;}
+  .c { left: 150px; background: var(--color3); border-color: var(--color4); bottom: 150px}
