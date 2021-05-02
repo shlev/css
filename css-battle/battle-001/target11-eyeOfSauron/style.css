@@ -1,0 +1,36 @@
+:root { --color1: #191210; --color2: #ECA03D; --color3: #84271C;}
+#playground {
+    background: var(--color1); position: relative;
+    display: flex; align-items: center; justify-content: center;
+}
+
+div { width: 50px; height: 50px; background: var(--color3);border-radius: 50%;
+box-shadow: 0 0 0 25px var(--color1),  0 0 0 45px var(--color2); position: relative;}
+
+div:before, div:after {
+    content: '';
+    width: 100px;
+    height: 50px;
+    background: var(--color1);
+    border: 20px solid var(--color2);
+    box-sizing: border-box;
+    position: absolute;
+}
+
+div:before {
+    left: -25px;
+    top: 50%;
+    transform: translate(-100%, 0);
+    border-top: 0;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+
+div:after {
+    left: -25px;
+    bottom: 50%;
+    transform: translate(100%, 0);
+    border-bottom: 0;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+}
