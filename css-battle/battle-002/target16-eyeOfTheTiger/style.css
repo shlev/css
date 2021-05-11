@@ -1,0 +1,26 @@
+  :root { --color1: #0B2429; --color2: #998235; --color3: #F3AC3C; }
+#playground {
+    background: var(--color1); position: relative;
+}
+
+div:nth-of-type(2) {
+  width: 50px; height: 50px;
+  background: var(--color1);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 0 0 45px var(--color3), 
+  0 0 0 65px var(--color1);
+  transform: translate(-50%, -50%)
+}
+
+div:nth-of-type(1){ 
+  background: var(--color2);
+  width: 200px; height: 200px;
+  position: absolute;
+  top: 50%; left: 50%;
+  border-radius: 100px 0;
+  transform: translate(-50%, -50%) rotate(45deg)
+}
+  
