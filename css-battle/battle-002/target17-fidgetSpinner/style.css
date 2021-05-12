@@ -1,0 +1,16 @@
+ * { box-sizing: border-box}
+  :root { --color1: #09042A; --color2: #E78481; --color3: #F5BB9C;}
+#playground {
+    background: var(--color1); position: relative;
+}
+
+.circle { width: 80px; height: 80px; border: solid 10px; border-radius: 50%;
+  position: absolute;}
+  .h { top: calc(50% - 40px);border-color: var(--color2); background: var(--color1)}
+  div:nth-of-type(2){ left: calc( 50% - 100px)}
+  div:nth-of-type(3){ left: calc( 50% + 20px)}
+  .v { left: calc(50% - 40px);border-color: var(--color1); background: var(--color3)}
+  div:nth-of-type(4){ top: calc( 50% - 93px)}
+  div:nth-of-type(5){ top: calc( 50% + 13px)}
+  .mid { width: 60px; height: 60px; background: var(--color2); position: absolute;
+  left: 50%; top: 50%; transform: translate(-50%, -50%)}
