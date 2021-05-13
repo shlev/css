@@ -1,0 +1,45 @@
+:root {--main-bg-color: #f3ac3c;}
+
+section#playground {
+  background: #222;
+  position: relative;
+}
+
+div { 
+  width:82px;
+  position: absolute;
+  height:130px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg)
+}
+span { position: absolute;}
+
+span:nth-of-type(1) { 
+  width: 100px;
+  height: 30px;
+  background: #f2994a;
+  border-radius: 10px 0 0;
+}
+
+span:nth-of-type(2) { 
+  width: 30px;
+  height: 80px;
+  background: #f2994a;
+  border-radius: 10px 0 5px;
+}
+
+span:nth-of-type(3) { 
+  width: 100px;
+  height: 30px;
+  background: #2d9cdb;
+  border-radius: 0 0 10px;
+  bottom: 0; right: 0;
+}
+
+span:nth-of-type(4) { 
+  width: 30px;
+  height: 80px;
+  background: #2d9cdb;
+  border-radius: 5px 0 10px;
+  bottom: 0; right: 0;
+}
