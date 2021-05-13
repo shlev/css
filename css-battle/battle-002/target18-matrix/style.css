@@ -1,0 +1,19 @@
+ * { box-sizing: border-box}
+  :root { --color1: #09042A; --color2: #E78481; --color3: #F5BB9C;}
+#playground {
+    background: #5c434c; margin: 0; padding: 10px; display : grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+div {
+    height: 80px;
+    width: 80px;
+    background: #f09462;
+    border-top-left-radius: 100%
+  }
+
+div:nth-child(even) { background: #F5D6B4;}
+div:nth-child(8){ grid-column: 1 2; grid-row: 2;}
+
