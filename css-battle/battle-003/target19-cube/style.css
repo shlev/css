@@ -1,0 +1,20 @@
+section#playground {
+  background: #0b2429; display: flex; align-items: center; justify-content: center;
+}
+
+div.diamond {
+  width: 100px; height: 100px;
+  background: #f3ac3c;
+  position: absolute;
+  top: 135px;
+  transform: rotate(45deg);
+}
+
+div.left, div.right { 
+  width: 70px; height: 70px;
+  position: absolute; top: 80px;
+}
+
+div.left{ transform: skew(0,-45deg); background: #998235; left: 130px;}
+div.right{ transform: skew(0,45deg); background: #1a4341; left: 200px; }
+
