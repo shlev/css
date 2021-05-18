@@ -1,0 +1,27 @@
+:root { 
+  --color1: #6592CF;
+  --color2: #060f55;
+}
+
+section#playground {
+  background: var(--color1); position: relative;
+}
+
+div { width: 80px; height: 40px; position: absolute; border: 20px solid var(--color2); }
+div:nth-of-type(1), div:nth-of-type(2){ 
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  top: 40px;
+  border-bottom: none;
+}
+
+div:nth-of-type(1){ left: 40px;}
+div:nth-of-type(2){ right: 40px;}
+
+
+div:nth-of-type(3){ 
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  left: 140px; bottom: 40px;
+  border-top: none;
+}
