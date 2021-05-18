@@ -1,0 +1,37 @@
+:root { 
+  --color1: #998235;
+  --color2: #1a4341;
+  --color3: #f3ac3c;
+}
+
+section#playground {
+  background: var(--color1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main { 
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.green { 
+  background: var(--color2);
+  width: 80px; height: 100px;
+  position: absolute;
+}
+
+.green.left { border-radius: 0 50px; top: 10px; left: 10px;}
+.green.right { border-radius: 50px 0; bottom: 10px; right: 10px;}
+
+
+.yellow { 
+  background: var(--color3);
+  width: 80px; height: 60px;
+  position: absolute;
+}
+
+.yellow.left { border-radius: 0 50px; bottom: 10px; left: 10px;}
+.yellow.right { border-radius: 50px 0; top: 10px; right: 10px;}
