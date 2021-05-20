@@ -1,33 +1,31 @@
 section#playground {
-  background: #fff;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: transparent;
+  position: absolute;
+  
 }
 
-div[a]{
-  height:200px;
-  width:200px;
-  display:flex;
-  position:relative
+#playground:before, #playground:after {
+  position: absolute;
+  content: '';
+  height: 50px;
+  width: 200px;
+  top: 50%;
+  left: 50%;
+  mix-blend-mode: screen;
 }
-div[b],div[c],div[d]{
-  height:200px;
-  width:50px;
-  position:absolute;
-  left:75px;
-  transform:rotate(45deg);
-  background:#a3a368}
-  div[d]{
-    height:50px;
-    background:#fbe18c;
-    top:75px
-  }
-  div[b]{
-    background:#f3ac3c;
-    transform:rotate(135deg)
-  }
+
+#playground:before {
+  background: #F3AC3C;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#playground:after {
+  background: #A3A368;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+
 
  
 
