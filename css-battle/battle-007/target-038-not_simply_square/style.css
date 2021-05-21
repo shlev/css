@@ -1,0 +1,23 @@
+* { margin: 0;}
+:root { --color1: #293462; --color2: #FFF1C1; --color3: #FE5F55; --color4: #A64942;}
+
+
+ 
+
+section#playground {
+  background: var(--color1);
+  
+}
+
+div { background: var(--color2); width: 200px; height: 200px; position: absolute;
+  }
+  
+  div:after { content:''; width: 100px; height: 200px; 
+    background: linear-gradient(var(--color3) 75%, var(--color4) 25%); position: absolute;
+  	left: 200px
+  }
+  
+  div:before { content:''; width: 200px; height: 100px; 
+    background: linear-gradient(to right, var(--color3) 75%, var(--color4) 25%); position: absolute;
+  	bottom: -100px
+  }
