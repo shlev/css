@@ -5,18 +5,44 @@
  
 
 section#playground {
-  background: var(--color1); display: flex; align-items: center; justify-content: center;
+  background: var(--color1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-  
+div { 
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
-  
-  div[a]{ background: var(--color3); width: 200px; height: 200px; border-radius:  50%; position: relative;}
-  
-  div[b]{ position: absolute; height: 150px; width: 250px; overflow: hidden; border-radius: 60px}
-  div[b]:before { 
-    content: ''; position: absolute; width: 300px; height: 20px; background: var(--color2);
-    top: 50%; left: 50%; transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 20px var(--color1), 0 0 0 40px var(--color2), 0 0 0 60px var(--color1);
-  }
-</style>
+span { 
+  display: block;
+  height: 20px;
+  background: var(--color2);
+  z-index: 10;
+  margin: 10px 0;
+}
+
+div:before, div:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+div:before { 
+  width: 200px; height: 200px; background:var(--color3);
+  border-radius: 50%;
+}
+
+div:after { 
+  width: 200px; height: 140px; background: var(--color1)
+;}
