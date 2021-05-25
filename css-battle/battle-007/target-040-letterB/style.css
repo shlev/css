@@ -1,0 +1,18 @@
+* { margin: 0;}
+ :root { --color1: #6592cf; --color2: #243d83;}
+
+section#playground {
+  background: var(--color1); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+div { background: 100px; border: 50px solid var(--color2);
+  	width: 100px; height: 100px; border-radius: 50%;
+    position: relative; }
+  
+  div:before { content: ''; width: 50px; height: 100px; position: absolute; background: var(--color2); left: -50px; top: -50px;}
+  
+  div:after { content: ''; width: 50px; height: 100px; position: absolute; background: var(--color1); ; top: -50px;}
